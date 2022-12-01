@@ -1,0 +1,40 @@
+@import "variables";
+.listaHeader{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.item{
+    text-decoration: none;
+    color: black;
+    
+}
+.titulo{
+  animation-name: Texto;
+  animation-duration: 2s;
+  animation-iteration-count: initial;
+  text-decoration: none;
+  color: black;
+  font-family: $Titulofuente;
+  
+}
+@keyframes Texto {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+}
+.bodyheader{
+    background-color: aliceblue;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagenProducto{
+    width: 30vw;
+}
