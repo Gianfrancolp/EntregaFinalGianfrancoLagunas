@@ -17,6 +17,7 @@
   text-decoration: none;
   color: black;
   font-family: $Titulofuente;
+  font-size: larger;
   
 }
 @keyframes Texto {
@@ -33,8 +34,75 @@
 }
 .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .imagenProducto{
-    width: 30vw;
+    width: 20vw;
+    height: 17vw;
+}
+.productoVenta{
+  width: 18vw;
+  text-align: center;
+  font-weight: bold;
+}
+.banner{
+ 
+  background-color: grey;
+  opacity: 100%;
+  height: 4vw;
+  background: linear-gradient(to right, #FA1B02, #00FD08);
+}
+.bannernavidad{
+  width: 100%;
+  text-align: center;
+  
+}
+.mapaubi{
+  width: 80vw ;
+  margin-left: 10%;
+}
+.envioTit{
+ font-size: 2vw;
+ text-align: center;
+}
+.nostit{
+  text-align: center;
+  font-size: 2.5vw;
+}
+.h3nosotros{
+  text-align: center;
+}
+.mb-3{
+  text-align: center;
+}
+.col-auto{
+  text-align: center;
+}
+.card-title{
+  text-align: center;
+}
+.card-img-top{
+  height: 20vw;
+}
+.precio{
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+footer{
+background-color: grey;
+position: relative;
+bottom: 0;
+}
+.footerpag{
+  text-align: center;
+}
+.footerlink{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.card-text{
+  text-align: center;
 }
