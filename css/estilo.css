@@ -123,4 +123,26 @@ footer {
   text-align: center;
 }
 
+.linktienda {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.maincontacto {
+  height: 78vh;
+}
+
+.mainosotros {
+  height: 78vh;
+}
+
+.index {
+  width: 100%;
+}
+
+.card {
+  width: 80%;
+}
+
 /*# sourceMappingURL=estilo.css.map */
